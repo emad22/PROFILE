@@ -12,7 +12,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
   }
 
-  SetActive(Menu){
+  SetActive(){
     $('li').removeClass('active');
     $('li').click(function(){
       $(this).addClass('active')
